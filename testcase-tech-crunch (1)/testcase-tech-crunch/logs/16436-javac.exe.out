@@ -1,0 +1,453 @@
+src\main\java\helper\ElementHelper.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src\main\java\model\ElementInfo.java:5: error: package lombok does not exist
+import lombok.Data;
+             ^
+src\main\java\model\ElementInfo.java:8: error: cannot find symbol
+@Data
+ ^
+  symbol: class Data
+src\main\java\helper\ElementHelper.java:9: error: cannot find symbol
+    public static By getElementInfoToBy(ElementInfo elementInfo) {
+                  ^
+  symbol:   class By
+  location: class ElementHelper
+src\main\java\helper\ElementHelper.java:37: error: cannot find symbol
+    public static By getElementInfoToBy(String byValue, String selectorType) {
+                  ^
+  symbol:   class By
+  location: class ElementHelper
+src\main\java\helper\StoreHelper.java:21: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.fail;
+                                   ^
+src\main\java\helper\StoreHelper.java:21: error: static import only from classes and interfaces
+import static org.junit.jupiter.api.Assertions.fail;
+^
+src\test\java\StepImplementation.java:3: error: package org.junit does not exist
+import org.junit.Assert;
+                ^
+src\test\java\StepImplementation.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\StepImplementation.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src\test\java\methods\Methods.java:7: error: package org.junit does not exist
+import org.junit.Assert;
+                ^
+src\test\java\methods\Methods.java:8: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src\test\java\methods\Methods.java:9: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.StaleElementReferenceException;
+                          ^
+src\test\java\methods\Methods.java:10: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\methods\Methods.java:11: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src\test\java\methods\Methods.java:12: error: package org.openqa.selenium.interactions does not exist
+import org.openqa.selenium.interactions.Actions;
+                                       ^
+src\test\java\methods\Methods.java:13: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src\test\java\methods\Methods.java:14: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.Select;
+                                     ^
+src\test\java\methods\Methods.java:15: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src\test\java\StepImplementation.java:15: error: cannot find symbol
+    public static WebDriver driver;
+                  ^
+  symbol:   class WebDriver
+  location: class StepImplementation
+src\test\java\methods\Methods.java:26: error: cannot find symbol
+    public static WebDriverWait wait;
+                  ^
+  symbol:   class WebDriverWait
+  location: class Methods
+src\test\java\methods\Methods.java:27: error: cannot find symbol
+    private final WebDriver driver;
+                  ^
+  symbol:   class WebDriver
+  location: class Methods
+src\test\java\methods\JsMethods.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.JavascriptExecutor;
+                          ^
+src\test\java\methods\JsMethods.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\methods\JsMethods.java:6: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src\test\java\methods\Methods.java:37: error: cannot find symbol
+    public void hoverElement(By by){
+                             ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:50: error: cannot find symbol
+    public By getBy(String key) {
+           ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:57: error: cannot find symbol
+    public WebElement findElement(By by) {
+                                  ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:57: error: cannot find symbol
+    public WebElement findElement(By by) {
+           ^
+  symbol:   class WebElement
+  location: class Methods
+src\test\java\methods\Methods.java:62: error: cannot find symbol
+    public void clickElement(By by) {
+                             ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:68: error: cannot find symbol
+    public Boolean ifElementExist(By by) {
+                                  ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:82: error: cannot find symbol
+    public void sendKeys(By by, String key) {
+                         ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:96: error: cannot find symbol
+    public void waitUntilVisible(By by) {
+                                 ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:119: error: cannot find symbol
+    public String getValue(By key) {
+                           ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:123: error: cannot find symbol
+    public Select getSelect(By by) {
+                            ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:123: error: cannot find symbol
+    public Select getSelect(By by) {
+           ^
+  symbol:   class Select
+  location: class Methods
+src\test\java\methods\Methods.java:127: error: cannot find symbol
+    public void selectByVisibleText(By by, String text) {
+                                    ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:131: error: cannot find symbol
+    public void selectByValue(By by, String value) {
+                              ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:135: error: cannot find symbol
+    public void selectByIndex(By by, int index) {
+                              ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:139: error: cannot find symbol
+    private List<WebElement> findElements(By by) {
+                                          ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:139: error: cannot find symbol
+    private List<WebElement> findElements(By by) {
+                 ^
+  symbol:   class WebElement
+  location: class Methods
+src\test\java\methods\Methods.java:143: error: cannot find symbol
+    public void findElementGetText(By by, String text, By optionalBy) {
+                                   ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:143: error: cannot find symbol
+    public void findElementGetText(By by, String text, By optionalBy) {
+                                                       ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:152: error: cannot find symbol
+    public void isElementContains(By by, String text) {
+                                  ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:157: error: cannot find symbol
+    public void isElementEquals(By by, String text) {
+                                ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\Methods.java:183: error: cannot find symbol
+    public void clearText(By by) {
+                          ^
+  symbol:   class By
+  location: class Methods
+src\test\java\methods\JsMethods.java:12: error: cannot find symbol
+    public static WebDriverWait wait;
+                  ^
+  symbol:   class WebDriverWait
+  location: class JsMethods
+src\test\java\methods\JsMethods.java:13: error: cannot find symbol
+    private static WebDriver driver;
+                   ^
+  symbol:   class WebDriver
+  location: class JsMethods
+src\test\java\methods\JsMethods.java:15: error: cannot find symbol
+    JavascriptExecutor js = (JavascriptExecutor) driver;
+    ^
+  symbol:   class JavascriptExecutor
+  location: class JsMethods
+src\test\java\driver\DriverExec.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\driver\DriverExec.java:12: error: cannot find symbol
+    public static WebDriver driver;
+                  ^
+  symbol:   class WebDriver
+  location: class DriverExec
+src\test\java\driver\LocalBrowserExec.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\driver\LocalBrowserExec.java:4: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src\test\java\driver\LocalBrowserExec.java:5: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeOptions;
+                                 ^
+src\test\java\driver\LocalBrowserExec.java:6: error: package org.openqa.selenium.remote does not exist
+import org.openqa.selenium.remote.DesiredCapabilities;
+                                 ^
+src\test\java\driver\LocalBrowserExec.java:12: error: cannot find symbol
+    private static WebDriver driver;
+                   ^
+  symbol:   class WebDriver
+  location: class LocalBrowserExec
+src\test\java\driver\LocalBrowserExec.java:15: error: cannot find symbol
+    public static WebDriver LocalDriver(String browser){
+                  ^
+  symbol:   class WebDriver
+  location: class LocalBrowserExec
+src\main\java\helper\ElementHelper.java:10: error: cannot find symbol
+        By by = null;
+        ^
+  symbol:   class By
+  location: class ElementHelper
+src\main\java\helper\ElementHelper.java:11: error: cannot find symbol
+        String elementInfoValue = elementInfo.getValue();
+                                             ^
+  symbol:   method getValue()
+  location: variable elementInfo of type ElementInfo
+src\main\java\helper\ElementHelper.java:12: error: cannot find symbol
+        switch (elementInfo.getType()){
+                           ^
+  symbol:   method getType()
+  location: variable elementInfo of type ElementInfo
+src\main\java\helper\ElementHelper.java:14: error: cannot find symbol
+                by = By.cssSelector(elementInfoValue);
+                     ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\helper\ElementHelper.java:17: error: cannot find symbol
+                by = By.id(elementInfoValue);
+                     ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\helper\ElementHelper.java:20: error: cannot find symbol
+                by = By.xpath(elementInfoValue);
+                     ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\helper\ElementHelper.java:23: error: cannot find symbol
+                by = By.className(elementInfoValue);
+                     ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\helper\ElementHelper.java:26: error: cannot find symbol
+                by = By.tagName(elementInfoValue);
+                     ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\helper\ElementHelper.java:29: error: cannot find symbol
+                by = By.name(elementInfoValue);
+                     ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\helper\ElementHelper.java:39: error: cannot find symbol
+        By by = null;
+        ^
+  symbol:   class By
+  location: class ElementHelper
+src\main\java\helper\ElementHelper.java:42: error: cannot find symbol
+                by = By.cssSelector(byValue);
+                     ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\helper\ElementHelper.java:45: error: cannot find symbol
+                by = By.id(byValue);
+                     ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\helper\ElementHelper.java:48: error: cannot find symbol
+                by = By.xpath(byValue);
+                     ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\helper\ElementHelper.java:51: error: cannot find symbol
+                by = By.className(byValue);
+                     ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\helper\ElementHelper.java:54: error: cannot find symbol
+                by = By.tagName(byValue);
+                     ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\helper\ElementHelper.java:57: error: cannot find symbol
+                by = By.name(byValue);
+                     ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\helper\StoreHelper.java:49: error: cannot find symbol
+                        .forEach(elementInfo -> elementMapList.put(elementInfo.getKey(), elementInfo));
+                                                                              ^
+  symbol:   method getKey()
+  location: variable elementInfo of type ElementInfo
+src\main\java\helper\StoreHelper.java:87: error: cannot find symbol
+            fail(key + " adýna sahip element bulunamadý. Lütfen kontrol ediniz.");
+            ^
+  symbol:   method fail(String)
+  location: class StoreHelper
+src\main\java\helper\StoreHelper.java:124: error: cannot find symbol
+                String key = elementInfo.getKey();
+                                        ^
+  symbol:   method getKey()
+  location: variable elementInfo of type ElementInfo
+src\main\java\helper\StoreHelper.java:125: error: cannot find symbol
+                String value = elementInfo.getValue();
+                                          ^
+  symbol:   method getValue()
+  location: variable elementInfo of type ElementInfo
+src\main\java\helper\StoreHelper.java:126: error: cannot find symbol
+                String type = elementInfo.getType();
+                                         ^
+  symbol:   method getType()
+  location: variable elementInfo of type ElementInfo
+src\test\java\StepImplementation.java:34: error: cannot find symbol
+            WebElement element = methods.findElement(methods.getBy(key));
+            ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\StepImplementation.java:57: error: cannot find symbol
+        WebElement element = methods.findElement(methods.getBy(key));
+        ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\StepImplementation.java:58: error: cannot find symbol
+        Assert.assertTrue("Element gorunur degil.",element.isDisplayed());
+        ^
+  symbol:   variable Assert
+  location: class StepImplementation
+src\test\java\methods\Methods.java:33: error: cannot find symbol
+        wait = new WebDriverWait(this.driver, Duration.ofSeconds(30));
+                   ^
+  symbol:   class WebDriverWait
+  location: class Methods
+src\test\java\methods\Methods.java:38: error: cannot find symbol
+        Actions action = new Actions(driver);
+        ^
+  symbol:   class Actions
+  location: class Methods
+src\test\java\methods\Methods.java:38: error: cannot find symbol
+        Actions action = new Actions(driver);
+                             ^
+  symbol:   class Actions
+  location: class Methods
+src\test\java\methods\Methods.java:39: error: cannot find symbol
+        wait.until(ExpectedConditions.visibilityOf(findElement(by)));
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class Methods
+src\test\java\methods\Methods.java:59: error: cannot find symbol
+        return wait.until(ExpectedConditions.presenceOfElementLocated(by));
+                          ^
+  symbol:   variable ExpectedConditions
+  location: class Methods
+src\test\java\methods\Methods.java:63: error: cannot find symbol
+        wait.until(ExpectedConditions.elementToBeClickable(by));
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class Methods
+src\test\java\methods\Methods.java:69: error: cannot find symbol
+        wait.until(ExpectedConditions.visibilityOf(findElement(by)));
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class Methods
+src\test\java\methods\Methods.java:70: error: cannot find symbol
+        wait.ignoring(NoSuchMethodException.class, StaleElementReferenceException.class);
+                                                   ^
+  symbol:   class StaleElementReferenceException
+  location: class Methods
+src\test\java\methods\Methods.java:83: error: cannot find symbol
+        wait.until(ExpectedConditions.visibilityOf(findElement(by)));
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class Methods
+src\test\java\methods\Methods.java:97: error: cannot find symbol
+        wait.until(ExpectedConditions.visibilityOf(findElement(by)));
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class Methods
+src\test\java\methods\Methods.java:101: error: cannot find symbol
+        WebElement element = findElement(getBy(key));
+        ^
+  symbol:   class WebElement
+  location: class Methods
+src\test\java\methods\Methods.java:124: error: cannot find symbol
+        return new Select(findElement(by));
+                   ^
+  symbol:   class Select
+  location: class Methods
+src\test\java\methods\Methods.java:144: error: cannot find symbol
+        List<WebElement> allRows = findElements(by);
+             ^
+  symbol:   class WebElement
+  location: class Methods
+src\test\java\methods\Methods.java:145: error: cannot find symbol
+        for (WebElement element : allRows) {
+             ^
+  symbol:   class WebElement
+  location: class Methods
+src\test\java\methods\Methods.java:153: error: cannot find symbol
+        WebElement element = findElement(by);
+        ^
+  symbol:   class WebElement
+  location: class Methods
+src\test\java\methods\Methods.java:154: error: cannot find symbol
+        Assert.assertTrue(element.getText().contains(text));
+        ^
+  symbol:   variable Assert
+  location: class Methods
+src\test\java\methods\Methods.java:158: error: cannot find symbol
+        WebElement element = findElement(by);
+        ^
+  symbol:   class WebElement
+  location: class Methods
+src\test\java\methods\Methods.java:159: error: cannot find symbol
+        Assert.assertTrue(element.getText().trim().equals(text));
+        ^
+  symbol:   variable Assert
+  location: class Methods
+src\test\java\methods\Methods.java:175: error: cannot find symbol
+        Assert.assertTrue("Url beklenen degeri icermiyor", decodedCurrentUrl.contains(text));
+        ^
+  symbol:   variable Assert
+  location: class Methods
+100 errors
+only showing the first 100 errors, of 107 total; use -Xmaxerrs if you would like to see more

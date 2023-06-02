@@ -1,0 +1,105 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 772milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 772"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 55815"}
+{"logLevel":"info","message":"Listening on port:55815"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isElementEquals' and 'StepImplementation.isElementEquals'"}
+{"logLevel":"debug","message":"Found {} elementinin textinin {} degerine esit oldugu kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.switchToDefaultPage' and 'StepImplementation.switchToDefaultPage'"}
+{"logLevel":"debug","message":"Found Varsayilan sayfaya gecilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.hoverElement' and 'StepImplementation.hoverElement'"}
+{"logLevel":"debug","message":"Found {} elementine hover edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkEqualsCurrentUrl' and 'StepImplementation.checkEqualsCurrentUrl'"}
+{"logLevel":"debug","message":"Found Url'in {} oldugu kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkIsExist' and 'StepImplementation.checkIsExist'"}
+{"logLevel":"debug","message":"Found {} elementinin bulundugu kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickRandomNews' and 'StepImplementation.clickRandomNews'"}
+{"logLevel":"debug","message":"Found Click on {} random news in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isElementContains' and 'StepImplementation.isElementContains'"}
+{"logLevel":"debug","message":"Found {} elementinin textinin {} degerini icerdigi kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitUntilVisible' and 'StepImplementation.waitUntilVisible'"}
+{"logLevel":"debug","message":"Found {} elementi gorunur olana kadar beklenir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSecond' and 'StepImplementation.waitForSecond'"}
+{"logLevel":"debug","message":"Found Wait for {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.confirmPopup' and 'StepImplementation.confirmPopup'"}
+{"logLevel":"debug","message":"Found Pop-up onaylanir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkContainsCurrentUrl' and 'StepImplementation.checkContainsCurrentUrl'"}
+{"logLevel":"debug","message":"Found Url'in {} icerdigi kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElement' and 'StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found {} elementine tiklanir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeys' and 'StepImplementation.sendKeys'"}
+{"logLevel":"debug","message":"Found {} input alanina {} degeri yazilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.scrollToElement' and 'StepImplementation.scrollToElement'"}
+{"logLevel":"debug","message":"Found {} elementine scroll edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.ifElementExistClick' and 'StepImplementation.ifElementExistClick'"}
+{"logLevel":"debug","message":"Found Eger varsa {} elementine tiklanir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.navigateTo' and 'StepImplementation.navigateTo'"}
+{"logLevel":"debug","message":"Found Go to URL {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.eachNewsHasAnAuthor' and 'StepImplementation.eachNewsHasAnAuthor'"}
+{"logLevel":"debug","message":"Found Each {} news has an {} author in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.eachNewsHasAImage' and 'StepImplementation.eachNewsHasAImage'"}
+{"logLevel":"debug","message":"Found Each {} news has an {} image in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} elementinin textinin {} degerine esit oldugu kontrol edilir. : public void isElementEquals(String key, String text)"}
+{"logLevel":"debug","message":"\tClick on {} random news : public void clickRandomNews(String key)"}
+{"logLevel":"debug","message":"\tWait for {} seconds : public void waitForSecond(ınt seconds)"}
+{"logLevel":"debug","message":"\t{} input alanina {} degeri yazilir. : public void sendKeys(String key, String value)"}
+{"logLevel":"debug","message":"\tEach {} news has an {} image : public void eachNewsHasAImage(String text, String key)"}
+{"logLevel":"debug","message":"\tVarsayilan sayfaya gecilir. : public void switchToDefaultPage()"}
+{"logLevel":"debug","message":"\tUrl'in {} oldugu kontrol edilir. : public void checkEqualsCurrentUrl(String key) throws UnsupportedEncodingException"}
+{"logLevel":"debug","message":"\t{} elementine hover edilir. : public void hoverElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementi gorunur olana kadar beklenir. : public void waitUntilVisible(String key)"}
+{"logLevel":"debug","message":"\tEger varsa {} elementine tiklanir. : public void ifElementExistClick(String key)"}
+{"logLevel":"debug","message":"\tPop-up onaylanir. : public void confirmPopup()"}
+{"logLevel":"debug","message":"\t{} elementinin textinin {} degerini icerdigi kontrol edilir. : public void isElementContains(String key, String text)"}
+{"logLevel":"debug","message":"\tGo to URL {} : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\tUrl'in {} icerdigi kontrol edilir. : public void checkContainsCurrentUrl(String key) throws UnsupportedEncodingException"}
+{"logLevel":"debug","message":"\tEach {} news has an {} author : public void eachNewsHasAnAuthor(String text, String key)"}
+{"logLevel":"debug","message":"\t{} elementine tiklanir. : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin bulundugu kontrol edilir : public void checkIsExist(String key)"}
+{"logLevel":"debug","message":"\t{} elementine scroll edilir. : public void scrollToElement(String key)"}
+Haz 02, 2023 1:08:13 ÖÖ driver.DriverExec beforeScenario
+INFO: =========================================================================================================
+Haz 02, 2023 1:08:13 ÖÖ driver.DriverExec beforeScenario
+INFO: -----------------------------------------SCENARIO--------------------------------------------------------
+Haz 02, 2023 1:08:13 ÖÖ driver.DriverExec beforeScenario
+INFO: SCENARIO NAME:TechCrunch Websitesinde Bulunan Son Haberler Sayfasinin Kontrolu
+Haz 02, 2023 1:08:13 ÖÖ driver.DriverExec beforeScenario
+INFO: SCENARIO TAG:[techcrunch_website_latest_news_page_check]
+
+
+Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 57693
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1685657294.815][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1685657294.816][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1685657295.326][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Haz 02, 2023 1:08:15 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Haz 02, 2023 1:08:15 ÖÖ org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: a no-op implementation
+Haz 02, 2023 1:08:15 ÖÖ org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 114.
+Haz 02, 2023 1:08:15 ÖÖ org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+{"logLevel":"debug","message":"Executing 'Go to URL {}' using 'class StepImplementation.navigateTo"}
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 02, 2023 1:08:25 ÖÖ methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing 'Each {} news has an {} image' using 'class StepImplementation.eachNewsHasAImage"}
+Haz 02, 2023 1:08:27 ÖÖ methods.Methods getBy
+INFO: Element newsTitle degerinde tutuluyor
+Haz 02, 2023 1:08:27 ÖÖ methods.Methods getBy
+INFO: Element newsImage degerinde tutuluyor
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

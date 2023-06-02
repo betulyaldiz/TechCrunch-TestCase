@@ -1,0 +1,365 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1074milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1074"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 51486"}
+{"logLevel":"info","message":"Listening on port:51486"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSecond' and 'StepImplementation.waitForSecond'"}
+{"logLevel":"debug","message":"Found Wait for {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkEqualsCurrentUrl' and 'StepImplementation.checkEqualsCurrentUrl'"}
+{"logLevel":"debug","message":"Found Check that the url is {}. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.linksWithinTheNewsContent' and 'StepImplementation.linksWithinTheNewsContent'"}
+{"logLevel":"debug","message":"Found Verify the links {} within the news {} content in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkIsExist' and 'StepImplementation.checkIsExist'"}
+{"logLevel":"debug","message":"Found The {} element is checked. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.scrollToElement' and 'StepImplementation.scrollToElement'"}
+{"logLevel":"debug","message":"Found The {} element is scrolled. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickRandomNews' and 'StepImplementation.clickRandomNews'"}
+{"logLevel":"debug","message":"Found Click on {} random news in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.navigateTo' and 'StepImplementation.navigateTo'"}
+{"logLevel":"debug","message":"Found Go to URL {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.theBrowserTitleIsTheSameWithTheNewsTitle' and 'StepImplementation.theBrowserTitleIsTheSameWithTheNewsTitle'"}
+{"logLevel":"debug","message":"Found Verify that the browser title is the same as the news {} tittle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.eachNewsHasAnAuthor' and 'StepImplementation.eachNewsHasAnAuthor'"}
+{"logLevel":"debug","message":"Found Each {} news has an {} author in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.eachNewsHasAImage' and 'StepImplementation.eachNewsHasAImage'"}
+{"logLevel":"debug","message":"Found Each {} news has an {} image in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tVerify that the browser title is the same as the news {} tittle : public void theBrowserTitleIsTheSameWithTheNewsTitle(String key)"}
+{"logLevel":"debug","message":"\tClick on {} random news : public void clickRandomNews(String key)"}
+{"logLevel":"debug","message":"\tWait for {} seconds : public void waitForSecond(ınt seconds)"}
+{"logLevel":"debug","message":"\tEach {} news has an {} image : public void eachNewsHasAImage(String text, String key)"}
+{"logLevel":"debug","message":"\tVerify the links {} within the news {} content : public void linksWithinTheNewsContent(String key, String title)"}
+{"logLevel":"debug","message":"\tThe {} element is checked. : public void checkIsExist(String key)"}
+{"logLevel":"debug","message":"\tGo to URL {} : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\tCheck that the url is {}. : public void checkEqualsCurrentUrl(String key) throws UnsupportedEncodingException"}
+{"logLevel":"debug","message":"\tEach {} news has an {} author : public void eachNewsHasAnAuthor(String text, String key)"}
+{"logLevel":"debug","message":"\tThe {} element is scrolled. : public void scrollToElement(String key)"}
+Haz 02, 2023 11:47:52 ÖÖ driver.DriverExec beforeScenario
+INFO: =========================================================================================================
+Haz 02, 2023 11:47:52 ÖÖ driver.DriverExec beforeScenario
+INFO: -----------------------------------------SCENARIO--------------------------------------------------------
+Haz 02, 2023 11:47:52 ÖÖ driver.DriverExec beforeScenario
+INFO: SCENARIO NAME:TechCrunch Websitesinde Bulunan Son Haberler Sayfasinin Kontrolu
+Haz 02, 2023 11:47:52 ÖÖ driver.DriverExec beforeScenario
+INFO: SCENARIO TAG:[techcrunch_website_latest_news_page_check]
+
+
+Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 59210
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1685695673.935][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1685695673.935][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1685695674.562][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Haz 02, 2023 11:47:54 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Haz 02, 2023 11:47:54 ÖÖ org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: a no-op implementation
+Haz 02, 2023 11:47:54 ÖÖ org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 114.
+Haz 02, 2023 11:47:54 ÖÖ org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+{"logLevel":"debug","message":"Executing 'Go to URL {}' using 'class StepImplementation.navigateTo"}
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 02, 2023 11:48:03 ÖÖ methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing 'Check that the url is {}.' using 'class StepImplementation.checkEqualsCurrentUrl"}
+Haz 02, 2023 11:48:05 ÖÖ methods.Methods isCurrentUrlEquals
+INFO: ====== Url Control =====
+Haz 02, 2023 11:48:05 ÖÖ methods.Methods getCurrentUrl
+INFO: Current Url:https://techcrunch.com/
+Haz 02, 2023 11:48:05 ÖÖ methods.Methods decoderUrl
+INFO: Decoded Url:https://techcrunch.com/
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 02, 2023 11:48:05 ÖÖ methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing 'The {} element is checked.' using 'class StepImplementation.checkIsExist"}
+Haz 02, 2023 11:48:07 ÖÖ methods.Methods getBy
+INFO: Element is kept at tcLogoHomePagevalue.
+Haz 02, 2023 11:48:07 ÖÖ methods.Methods findElement
+INFO: The element has the value By.cssSelector: a[href='https://techcrunch.com/']
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 02, 2023 11:48:08 ÖÖ methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing 'The {} element is checked.' using 'class StepImplementation.checkIsExist"}
+Haz 02, 2023 11:48:10 ÖÖ methods.Methods getBy
+INFO: Element is kept at tcLatestNewsFieldHomePagevalue.
+Haz 02, 2023 11:48:10 ÖÖ methods.Methods findElement
+INFO: The element has the value By.cssSelector: h2[class='river__title river__title--home']
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 02, 2023 11:48:10 ÖÖ methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing 'The {} element is scrolled.' using 'class StepImplementation.scrollToElement"}
+Haz 02, 2023 11:48:12 ÖÖ methods.Methods getBy
+INFO: Element is kept at tcLatestNewsFieldHomePagevalue.
+Haz 02, 2023 11:48:12 ÖÖ methods.Methods findElement
+INFO: The element has the value By.cssSelector: h2[class='river__title river__title--home']
+Haz 02, 2023 11:48:12 ÖÖ methods.Methods scrollToElement
+INFO:  scrolled to elementBy.cssSelector: h2[class='river__title river__title--home']
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 02, 2023 11:48:12 ÖÖ methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing 'Each {} news has an {} author' using 'class StepImplementation.eachNewsHasAnAuthor"}
+Haz 02, 2023 11:48:14 ÖÖ methods.Methods getBy
+INFO: Element is kept at newsTitlevalue.
+Haz 02, 2023 11:48:14 ÖÖ methods.Methods getBy
+INFO: Element is kept at newsAuthorsvalue.
+Haz 02, 2023 11:48:14 ÖÖ methods.Methods checkToAuthor
+INFO: Manish Singh author of ---> Venture
+NestAway, once valued at over $225 million, sells for $11 million
+Manish Singh
+10:21 AM GMT+3•June 2, 2023
+PropTech firm Aurum is acquiring NestAway, a once high-flying Indian startup operating in the same space, for up to $10.9 million, in a deal that marks a near complete erosion in value for the star... news true
+Haz 02, 2023 11:48:14 ÖÖ methods.Methods checkToAuthor
+INFO: Kirsten Korosec author of ---> Featured Article
+Volkswagen targets cool with a new American-sized ID.Buzz
+It’s been far too long and yet you’re going to have to wait a bit longer. After years...
+Kirsten Korosec
+10:01 AM GMT+3•June 2, 2023 news true
+Haz 02, 2023 11:48:14 ÖÖ methods.Methods checkToAuthor
+INFO: Manish Singh author of ---> Enterprise
+Puneet Chandok, AWS India and South Asia head, has resigned
+Manish Singh
+8:54 AM GMT+3•June 2, 2023
+Puneet Chandok, the head of AWS in India and South Asia, has resigned, according to two sources familiar with the matter, a surprise move just weeks after the cloud giant pledged to invest over $12... news true
+Haz 02, 2023 11:48:14 ÖÖ methods.Methods checkToAuthor
+INFO: Rebecca Bellan author of ---> Transportation
+Gig workers in California to receive millions for unpaid vehicle expenses
+Rebecca Bellan
+6:00 AM GMT+3•June 2, 2023
+Uber, Lyft, DoorDash and other app-based ride-hail and delivery companies will have to reimburse California gig workers potentially millions of dollars for unpaid vehicle expenses between 2022 and ... news true
+Haz 02, 2023 11:48:14 ÖÖ methods.Methods checkToAuthor
+INFO: Taylor Hatmaker author of ---> Social
+Twitter’s trust and safety lead Ella Irwin resigns
+Taylor Hatmaker
+4:15 AM GMT+3•June 2, 2023
+Twitter’s head of trust and safety Ella Irwin has resigned, the now-former executive confirmed to Reuters on Thursday. Irwin took over for Yoel Roth, who famously left the company during the ... news true
+Haz 02, 2023 11:48:15 ÖÖ methods.Methods checkToAuthor
+INFO: Aria Alamalhodaei author of ---> Space
+NASA, Boeing delay the first crewed flight test of the Starliner capsule…again
+Aria Alamalhodaei
+1:00 AM GMT+3•June 2, 2023
+Boeing and NASA said Thursday that the first crewed flight test of the Starliner capsule would be further delayed due to a new crop of technical issues with the spacecraft. The first crewed mission... news true
+Haz 02, 2023 11:48:15 ÖÖ methods.Methods checkToAuthor
+INFO: Devin Coldewey author of ---> AI
+Turncoat drone story shows why we should fear people, not AIs
+Devin Coldewey
+12:36 AM GMT+3•June 2, 2023
+A story about a simulated drone turning on its operator in order to kill more efficiently is making the rounds so fast today that there’s no point in hoping it’ll burn itself out. Inste... news true
+Haz 02, 2023 11:48:15 ÖÖ methods.Methods checkToAuthor
+INFO: Manish Singh author of ---> Venture
+Fidelity has cut Reddit valuation by 41% since 2021 investment
+Manish Singh
+12:33 AM GMT+3•June 2, 2023
+Fidelity, the lead investor in Reddit’s most recent funding round in 2021, has slashed the estimated worth of its equity stake in the popular social media platform by 41% since the investment... news true
+Haz 02, 2023 11:48:15 ÖÖ methods.Methods checkToAuthor
+INFO: Aria Alamalhodaei author of ---> Space
+Rocket Lab’s private mission to Venus slips to 2025
+Aria Alamalhodaei
+12:07 AM GMT+3•June 2, 2023
+Rocket Lab’s mission to Venus, which was originally scheduled to launch last month, is “not imminent,” a spokesperson confirmed to TechCrunch. That means the mission will likely m... news true
+Haz 02, 2023 11:48:15 ÖÖ methods.Methods checkToAuthor
+INFO: Alex Wilhelm, Ron Miller author of ---> TechCrunch
+plus-bold
+Growth
+Salesforce could be repositioning itself as a data company
+As Salesforce delves deeper into AI, the data exhaust from its core products could eventually be ...
+Alex Wilhelm, Ron Miller
+11:15 PM GMT+3•June 1, 2023 news true
+Haz 02, 2023 11:48:15 ÖÖ methods.Methods checkToAuthor
+INFO: Jagmeet Singh author of ---> Gaming
+‘Stranger Things’ game developer BonusXP is shutting down
+Jagmeet Singh
+11:03 PM GMT+3•June 1, 2023
+BonusXP, the game studio that worked with Netflix to kick off its gaming initiative and introduced “Stranger Things” titles on mobile devices, as well as on desktop and consoles, is shu... news true
+Haz 02, 2023 11:48:15 ÖÖ methods.Methods checkToAuthor
+INFO: Jacquelyn Melinek author of ---> Crypto
+Monthly crypto exchange volume tumbled in May, hitting 32-month low
+Jacquelyn Melinek
+10:00 PM GMT+3•June 1, 2023
+Follow me on Twitter @Jacqmelinek for breaking crypto news, memes and more. Welcome back to Chain Reaction. Although there are a lot of builders in the crypto space, the total money being invested ... news true
+Haz 02, 2023 11:48:15 ÖÖ methods.Methods checkToAuthor
+INFO: Sarah Perez author of ---> Apps
+Drive times app ETA brings its handy location dashboard to CarPlay
+Sarah Perez
+9:46 PM GMT+3•June 1, 2023
+Nearly a decade after its launch, ETA‘s simple drive times app is finally making its way to Apple’s CarPlay. The newly updated app, which offers an alternative first step to planning a ... news true
+Haz 02, 2023 11:48:16 ÖÖ methods.Methods checkToAuthor
+INFO: Brian Heater author of ---> Featured Article
+Meet me at the dog run
+You’ll have to forgive me, I spent most of the morning thinking and writing about VR. In the lead...
+Brian Heater
+9:30 PM GMT+3•June 1, 2023 news true
+Haz 02, 2023 11:48:16 ÖÖ methods.Methods checkToAuthor
+INFO: Aria Alamalhodaei author of ---> Space
+More SpaceX Starlink terminals will go to Ukraine following new order from Pentagon
+Aria Alamalhodaei
+9:18 PM GMT+3•June 1, 2023
+The Department of Defense said Thursday it is buying more Starlink terminals from SpaceX for use in Ukraine, as the conflict between that country and Russia wages well into its second year. The Pen... news true
+Haz 02, 2023 11:48:16 ÖÖ methods.Methods checkToAuthor
+INFO: Manish Singh author of ---> Featured Article
+Filings reveal PE and VC returns amid escalating write-downs
+Some high-profile venture capital and private equity firms are slashing the valuation of their ho...
+Manish Singh
+8:54 PM GMT+3•June 1, 2023 news true
+Haz 02, 2023 11:48:16 ÖÖ methods.Methods checkToAuthor
+INFO: Mary Ann Azevedo author of ---> Fintech
+Fintech giant Stripe is getting into the credit game
+Mary Ann Azevedo
+8:49 PM GMT+3•June 1, 2023
+Stripe wants to make it easier for businesses to access credit. The private financial infrastructure giant announced a new charge card program today from Stripe Issuing, its commercial card issuing... news true
+Haz 02, 2023 11:48:16 ÖÖ methods.Methods checkToAuthor
+INFO: Natasha Lomas author of ---> Privacy
+Germany’s antitrust watchdog questions the future of behavioral advertising
+Natasha Lomas
+8:43 PM GMT+3•June 1, 2023
+Germany’s antitrust watchdog made some interesting comments vis-à-vis the programmatic advertising market yesterday — which question the appropriateness and sustainability of the (still... news true
+Haz 02, 2023 11:48:16 ÖÖ methods.Methods checkToAuthor
+INFO: Ivan Mehta author of ---> Apps
+Meta announces over 20 new games for Quest headsets
+Ivan Mehta
+8:41 PM GMT+3•June 1, 2023
+In addition to news of a $499 Quest 3 headset arriving this fall, Meta today announced over 15 new titles for Quest VR headsets at the Meta Quest Gaming Showcase today. The games include Stranger T... news true
+Haz 02, 2023 11:48:16 ÖÖ methods.Methods checkToAuthor
+INFO: Tim De Chant author of ---> Fundraising
+Ceibo unearths $30M Series B to extract more copper out of existing mines
+Tim De Chant
+8:30 PM GMT+3•June 1, 2023
+This Chilean startup used the side door to break into the mining industry, which is slow to adopt new technologies. news true
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 02, 2023 11:48:16 ÖÖ methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing 'Each {} news has an {} image' using 'class StepImplementation.eachNewsHasAImage"}
+Haz 02, 2023 11:48:18 ÖÖ methods.Methods getBy
+INFO: Element is kept at newsTitlevalue.
+Haz 02, 2023 11:48:18 ÖÖ methods.Methods getBy
+INFO: Element is kept at newsImagevalue.
+Haz 02, 2023 11:48:18 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1390003407.jpg?w=100&h=53&crop=1
+Haz 02, 2023 11:48:18 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1390003407.jpg?w=200&h=107&crop=1
+Haz 02, 2023 11:48:18 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1390003407.jpg?w=430&h=230&crop=1
+Haz 02, 2023 11:48:28 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2021/12/GettyImages-1356696981.jpg?w=100&h=53&crop=1
+Haz 02, 2023 11:48:28 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2021/12/GettyImages-1356696981.jpg?w=200&h=107&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2021/12/GettyImages-1356696981.jpg?w=430&h=230&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2020/11/GettyImages-1228964218.jpg?w=100&h=53&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2020/11/GettyImages-1228964218.jpg?w=200&h=107&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2020/11/GettyImages-1228964218.jpg?w=430&h=230&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1244881807.jpg?w=100&h=53&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1244881807.jpg?w=200&h=107&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1244881807.jpg?w=430&h=230&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2022/05/boeing-ula-starliner.jpeg?w=100&h=53&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2022/05/boeing-ula-starliner.jpeg?w=200&h=107&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2022/05/boeing-ula-starliner.jpeg?w=430&h=230&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2016/08/battle-drones.jpg?w=100&h=53&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2016/08/battle-drones.jpg?w=200&h=107&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2016/08/battle-drones.jpg?w=430&h=230&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1454483278.jpg?w=100&h=53&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1454483278.jpg?w=200&h=107&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1454483278.jpg?w=430&h=230&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/first-private-mission-to-venus.jpeg?w=100&h=53&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/first-private-mission-to-venus.jpeg?w=200&h=107&crop=1
+Haz 02, 2023 11:48:29 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/first-private-mission-to-venus.jpeg?w=430&h=230&crop=1
+Haz 02, 2023 11:48:39 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2021/08/netflix-mobile-game-android-poland.jpeg?w=100&h=53&crop=1
+Haz 02, 2023 11:48:39 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2021/08/netflix-mobile-game-android-poland.jpeg?w=200&h=107&crop=1
+Haz 02, 2023 11:48:39 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2021/08/netflix-mobile-game-android-poland.jpeg?w=430&h=230&crop=1
+Haz 02, 2023 11:48:39 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1179848673.jpg?w=100&h=53&crop=1
+Haz 02, 2023 11:48:39 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1179848673.jpg?w=200&h=107&crop=1
+Haz 02, 2023 11:48:39 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1179848673.jpg?w=430&h=230&crop=1
+Haz 02, 2023 11:48:39 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/ETA-CarPlay-List-View-In-Dash.jpeg?w=100&h=53&crop=1
+Haz 02, 2023 11:48:39 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/ETA-CarPlay-List-View-In-Dash.jpeg?w=200&h=107&crop=1
+Haz 02, 2023 11:48:39 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/ETA-CarPlay-List-View-In-Dash.jpeg?w=430&h=230&crop=1
+Haz 02, 2023 11:48:49 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1468847729.jpg?w=100&h=53&crop=1
+Haz 02, 2023 11:48:50 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1468847729.jpg?w=200&h=107&crop=1
+Haz 02, 2023 11:48:50 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1468847729.jpg?w=430&h=230&crop=1
+Haz 02, 2023 11:49:00 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2020/09/GettyImages-1035471414-e1685641248432.jpg?w=100&h=53&crop=1
+Haz 02, 2023 11:49:00 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2020/09/GettyImages-1035471414-e1685641248432.jpg?w=200&h=107&crop=1
+Haz 02, 2023 11:49:00 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2020/09/GettyImages-1035471414-e1685641248432.jpg?w=430&h=230&crop=1
+Haz 02, 2023 11:49:00 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2019/03/124659356_bbe1e5b661_o.jpg?w=100&h=53&crop=1
+Haz 02, 2023 11:49:00 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2019/03/124659356_bbe1e5b661_o.jpg?w=200&h=107&crop=1
+Haz 02, 2023 11:49:00 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2019/03/124659356_bbe1e5b661_o.jpg?w=430&h=230&crop=1
+Haz 02, 2023 11:49:00 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2022/07/GettyImages-1239009531.jpg?w=100&h=53&crop=1
+Haz 02, 2023 11:49:00 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2022/07/GettyImages-1239009531.jpg?w=200&h=107&crop=1
+Haz 02, 2023 11:49:00 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2022/07/GettyImages-1239009531.jpg?w=430&h=230&crop=1
+Haz 02, 2023 11:49:00 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-157501301.jpg?w=100&h=53&crop=1
+Haz 02, 2023 11:49:00 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-157501301.jpg?w=200&h=107&crop=1
+Haz 02, 2023 11:49:00 ÖÖ methods.Methods checkToImages
+INFO: Image Link----> https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-157501301.jpg?w=430&h=230&crop=1
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 02, 2023 11:49:00 ÖÖ methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing 'Click on {} random news' using 'class StepImplementation.clickRandomNews"}
+Haz 02, 2023 11:49:02 ÖÖ methods.Methods getBy
+INFO: Element is kept at newsTitlevalue.
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 02, 2023 11:49:04 ÖÖ methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing 'Verify that the browser title is the same as the news {} tittle' using 'class StepImplementation.theBrowserTitleIsTheSameWithTheNewsTitle"}
+Haz 02, 2023 11:49:06 ÖÖ methods.Methods getBy
+INFO: Element is kept at newsPageTitlevalue.
+Haz 02, 2023 11:49:06 ÖÖ methods.Methods findElement
+INFO: The element has the value By.className: article__title
+Haz 02, 2023 11:49:06 ÖÖ methods.Methods checkBrowserTitleAndNewsTitle
+INFO: Compatible with browser title news title ----> NestAway, once valued at over $225 million, sells for $11 million
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 02, 2023 11:49:06 ÖÖ methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing 'Verify the links {} within the news {} content' using 'class StepImplementation.linksWithinTheNewsContent"}
+Haz 02, 2023 11:49:08 ÖÖ methods.Methods getBy
+INFO: Element is kept at newPageLinkvalue.
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

@@ -1,0 +1,1 @@
+var index = {"Tags":{"techcrunch_website_latest_news_page_check":["specs/techCrunch.html"]},"Specs":{"Tech Crunch WebSite Test Case":["specs/techCrunch.html"]}};

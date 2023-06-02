@@ -1,0 +1,38 @@
+
+# Navigate to TechCrunch Homepage
+* Go to URL "https://www.techcrunch.com/"
+* Wait for "2" seconds
+
+# Verify the content of the Homepage
+*  Check that the url is "https://techcrunch.com/".
+*  Wait for "2" seconds
+*  The "tcLogoHomePage" element is checked.
+*  Wait for "2" seconds
+*  The "tcLatestNewsFieldHomePage" element is checked.
+*  Wait for "2" seconds
+
+# Verfiy to Homepage in The Latest News Section
+* The "tcLatestNewsFieldHomePage" element is scrolled.
+*  Wait for "2" seconds
+ "latestNewsRiverHomePage" elementinin bulundugu kontrol edilir
+
+# Verify to each news has an Author in The Latest News Section
+* Each "newsTitle" news has an "newsAuthors" author
+* Wait for "2" seconds
+
+# Verify to each news has an Image in The Latest News Section
+* Each "newsTitle" news has an "newsImage" image
+* Wait for "2" seconds
+
+# Click on one of the news from The Latest News Section
+* Click on "newsTitle" random news
+* Wait for "2" seconds
+
+# Verify that the browser title is the same as the news tittle
+* Verify that the browser title is the same as the news "newsPageTitle" tittle
+* Wait for "2" seconds
+
+# Verify the links within the news content
+* Verify the links "newsPageLinks" within the news "newsPageTitle" content
+* Wait for "2" seconds
+

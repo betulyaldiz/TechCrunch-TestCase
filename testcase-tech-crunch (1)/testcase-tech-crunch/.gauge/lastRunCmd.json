@@ -1,0 +1,8 @@
+[
+	"C:\\Program Files\\Gauge\\bin\\gauge.exe",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"C:/Users/monster/Desktop/testcase-tech-crunch (1)/testcase-tech-crunch/specs/techCrunch.spec:5"
+]

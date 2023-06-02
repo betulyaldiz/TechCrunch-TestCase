@@ -1,0 +1,33 @@
+[
+  {
+    "key": "tcLogoHomePage",
+    "value": "a[href='https://techcrunch.com/']",
+    "type": "css"
+  },
+  {
+    "key": "tcLatestNewsFieldHomePage",
+    "value": "h2[class='river__title river__title--home']",
+    "type": "css"
+  },
+  {
+    "key": "newsTitle",
+    "value": "post-block--unread",
+    "type": "class"
+  },
+  {
+    "key": "newsAuthors",
+    "value": "river-byline__authors",
+    "type": "class"
+  },
+  {
+    "key": "newsImage",
+    "value": ".post-block__media source",
+    "type": "css"
+  },
+  {
+    "key": "latestNewsRiverHomePage",
+    "value": "river river--homepage ",
+    "type": "class"
+  }
+
+]

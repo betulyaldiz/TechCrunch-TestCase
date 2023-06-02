@@ -1,0 +1,243 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 736milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 736"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 51350"}
+{"logLevel":"info","message":"Listening on port:51350"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isElementEquals' and 'StepImplementation.isElementEquals'"}
+{"logLevel":"debug","message":"Found {} elementinin textinin {} degerine esit oldugu kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.switchToDefaultPage' and 'StepImplementation.switchToDefaultPage'"}
+{"logLevel":"debug","message":"Found Varsayilan sayfaya gecilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.hoverElement' and 'StepImplementation.hoverElement'"}
+{"logLevel":"debug","message":"Found {} elementine hover edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkEqualsCurrentUrl' and 'StepImplementation.checkEqualsCurrentUrl'"}
+{"logLevel":"debug","message":"Found Url'in {} oldugu kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkIsExist' and 'StepImplementation.checkIsExist'"}
+{"logLevel":"debug","message":"Found {} objesinin bulundugu kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isElementContains' and 'StepImplementation.isElementContains'"}
+{"logLevel":"debug","message":"Found {} elementinin textinin {} degerini icerdigi kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitUntilVisible' and 'StepImplementation.waitUntilVisible'"}
+{"logLevel":"debug","message":"Found {} elementi gorunur olana kadar beklenir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSecond' and 'StepImplementation.waitForSecond'"}
+{"logLevel":"debug","message":"Found Wait for {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.confirmPopup' and 'StepImplementation.confirmPopup'"}
+{"logLevel":"debug","message":"Found Pop-up onaylanir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkContainsCurrentUrl' and 'StepImplementation.checkContainsCurrentUrl'"}
+{"logLevel":"debug","message":"Found Url'in {} icerdigi kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElement' and 'StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found {} elementine tiklanir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeys' and 'StepImplementation.sendKeys'"}
+{"logLevel":"debug","message":"Found {} input alanina {} degeri yazilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.scrollToElement' and 'StepImplementation.scrollToElement'"}
+{"logLevel":"debug","message":"Found {} elementine scroll edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.ifElementExistClick' and 'StepImplementation.ifElementExistClick'"}
+{"logLevel":"debug","message":"Found Eger varsa {} elementine tiklanir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.navigateTo' and 'StepImplementation.navigateTo'"}
+{"logLevel":"debug","message":"Found Go to URL {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.eachNewsHasAnAuthor' and 'StepImplementation.eachNewsHasAnAuthor'"}
+{"logLevel":"debug","message":"Found Each {} news has an {} author in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} elementinin textinin {} degerine esit oldugu kontrol edilir. : public void isElementEquals(String key, String text)"}
+{"logLevel":"debug","message":"\tWait for {} seconds : public void waitForSecond(ınt seconds)"}
+{"logLevel":"debug","message":"\t{} input alanina {} degeri yazilir. : public void sendKeys(String key, String value)"}
+{"logLevel":"debug","message":"\tVarsayilan sayfaya gecilir. : public void switchToDefaultPage()"}
+{"logLevel":"debug","message":"\tUrl'in {} oldugu kontrol edilir. : public void checkEqualsCurrentUrl(String key) throws UnsupportedEncodingException"}
+{"logLevel":"debug","message":"\t{} elementine hover edilir. : public void hoverElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementi gorunur olana kadar beklenir. : public void waitUntilVisible(String key)"}
+{"logLevel":"debug","message":"\t{} objesinin bulundugu kontrol edilir : public void checkIsExist(String key)"}
+{"logLevel":"debug","message":"\tEger varsa {} elementine tiklanir. : public void ifElementExistClick(String key)"}
+{"logLevel":"debug","message":"\tPop-up onaylanir. : public void confirmPopup()"}
+{"logLevel":"debug","message":"\t{} elementinin textinin {} degerini icerdigi kontrol edilir. : public void isElementContains(String key, String text)"}
+{"logLevel":"debug","message":"\tGo to URL {} : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\tUrl'in {} icerdigi kontrol edilir. : public void checkContainsCurrentUrl(String key) throws UnsupportedEncodingException"}
+{"logLevel":"debug","message":"\tEach {} news has an {} author : public void eachNewsHasAnAuthor(String key, String value)"}
+{"logLevel":"debug","message":"\t{} elementine tiklanir. : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementine scroll edilir. : public void scrollToElement(String key)"}
+Haz 01, 2023 6:45:05 ÖS driver.DriverExec beforeScenario
+INFO: =========================================================================================================
+Haz 01, 2023 6:45:05 ÖS driver.DriverExec beforeScenario
+INFO: -----------------------------------------SCENARIO--------------------------------------------------------
+Haz 01, 2023 6:45:05 ÖS driver.DriverExec beforeScenario
+INFO: SCENARIO NAME:TechCrunch Websitesinde Bulunan Son Haberler Sayfasinin Kontrolu
+Haz 01, 2023 6:45:05 ÖS driver.DriverExec beforeScenario
+INFO: SCENARIO TAG:[techcrunch_website_latest_news_page_check]
+
+
+Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 51841
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1685634306.255][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1685634306.255][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1685634306.773][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Haz 01, 2023 6:45:06 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Haz 01, 2023 6:45:06 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: a no-op implementation
+Haz 01, 2023 6:45:06 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 114.
+Haz 01, 2023 6:45:06 ÖS org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+{"logLevel":"debug","message":"Executing 'Go to URL {}' using 'class StepImplementation.navigateTo"}
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 01, 2023 6:45:14 ÖS methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing 'Url'in {} oldugu kontrol edilir.' using 'class StepImplementation.checkEqualsCurrentUrl"}
+Haz 01, 2023 6:45:16 ÖS methods.Methods isCurrentUrlEquals
+INFO: ====== Url kontrolu =====
+Haz 01, 2023 6:45:16 ÖS methods.Methods getCurrentUrl
+INFO: Current Url:https://techcrunch.com/
+Haz 01, 2023 6:45:16 ÖS methods.Methods decoderUrl
+INFO: Decoded Url:https://techcrunch.com/
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 01, 2023 6:45:16 ÖS methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing '{} objesinin bulundugu kontrol edilir' using 'class StepImplementation.checkIsExist"}
+Haz 01, 2023 6:45:18 ÖS methods.Methods getBy
+INFO: Element tcLogoHomePage degerinde tutuluyor
+Haz 01, 2023 6:45:18 ÖS methods.Methods findElement
+INFO: Element By.cssSelector: a[href='https://techcrunch.com/'] by degerine sahip
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 01, 2023 6:45:18 ÖS methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing '{} objesinin bulundugu kontrol edilir' using 'class StepImplementation.checkIsExist"}
+Haz 01, 2023 6:45:20 ÖS methods.Methods getBy
+INFO: Element tcLatestNewsFieldHomePage degerinde tutuluyor
+Haz 01, 2023 6:45:20 ÖS methods.Methods findElement
+INFO: Element By.cssSelector: h2[class='river__title river__title--home'] by degerine sahip
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 01, 2023 6:45:20 ÖS methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing '{} elementine scroll edilir.' using 'class StepImplementation.scrollToElement"}
+Haz 01, 2023 6:45:22 ÖS methods.Methods getBy
+INFO: Element tcLatestNewsFieldHomePage degerinde tutuluyor
+Haz 01, 2023 6:45:22 ÖS methods.Methods findElement
+INFO: Element By.cssSelector: h2[class='river__title river__title--home'] by degerine sahip
+Haz 01, 2023 6:45:22 ÖS methods.Methods scrollToElement
+INFO: By.cssSelector: h2[class='river__title river__title--home']elementine scroll edildi
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class StepImplementation.waitForSecond"}
+Haz 01, 2023 6:45:22 ÖS methods.Methods waitForSeconds
+INFO: 2 seconds wait...
+{"logLevel":"debug","message":"Executing 'Each {} news has an {} author' using 'class StepImplementation.eachNewsHasAnAuthor"}
+Haz 01, 2023 6:45:24 ÖS methods.Methods getBy
+INFO: Element newsWrapper degerinde tutuluyor
+Haz 01, 2023 6:45:24 ÖS methods.Methods getBy
+INFO: Element newsAuthors degerinde tutuluyor
+Haz 01, 2023 6:45:24 ÖS methods.Methods checkToAuthor
+INFO: Ivan Mehta yazarinin Apps
+Developers of third-party Reddit apps fear shutdown because of API pricing changes
+Ivan Mehta
+6:12 PM GMT+3•June 1, 2023
+Christian Selig, the developer of the popular iOS Reddit client Apollo, posted on the social network on Wednesday saying that the social network’s new API pricing might put him out of busines... haberi true
+Haz 01, 2023 6:45:24 ÖS methods.Methods checkToAuthor
+INFO: Kyle Wiggers yazarinin AI
+Microsoft’s AI-powered Designer tool comes to Teams
+Kyle Wiggers
+6:00 PM GMT+3•June 1, 2023
+Designer, Microsoft’s AI-powered art-generating tool, is coming to the free version of Teams. Starting today in preview on Windows 11, Microsoft Teams users can tap Designer, a Canva-like app... haberi true
+Haz 01, 2023 6:45:24 ÖS methods.Methods checkToAuthor
+INFO: Lauren Simonds yazarinin TechCrunch Disrupt 2023
+Google’s Parisa Tabriz to discuss keeping a billion users safe and more on Disrupt’s Security Stage
+Lauren Simonds
+6:00 PM GMT+3•June 1, 2023
+We can’t say with scientific certainty, but security could be a leading cause of early-stage startup founder insomnia. Locking down your company, product and customer security against constan... haberi true
+Haz 01, 2023 6:45:24 ÖS methods.Methods checkToAuthor
+INFO: Brian Heater yazarinin Hardware
+Meta’s $499 Quest 3 headset arrives this fall
+Brian Heater
+5:27 PM GMT+3•June 1, 2023
+Say hello to the second worst kept secret in VR. Meta today gave the world the first (official) glimpse of its latest headset, the Quest 3. The mixed reality hardware was shown off this morning ahe... haberi true
+Haz 01, 2023 6:45:24 ÖS methods.Methods checkToAuthor
+INFO: Sarah Perez yazarinin Commerce
+Walmart to drop plastic mailers, let customers bring their own bags to order pickup
+Sarah Perez
+5:00 PM GMT+3•June 1, 2023
+Walmart announced this morning it will be reducing plastic across its e-commerce operations in a number of ways, including shifting from plastic mailers to recyclable paper bag mailers and allowing... haberi true
+Haz 01, 2023 6:45:24 ÖS methods.Methods checkToAuthor
+INFO: Lauren Forristal yazarinin Media & Entertainment
+AMC and Vudu score big with new on-demand streaming partnership
+Lauren Forristal
+5:00 PM GMT+3•June 1, 2023
+Four years after AMC Theatres launched its on-demand streaming service, AMC Theatres On Demand, the company is now transferring its entire library of films over to Vudu, the Fandango-owned digital ... haberi true
+Haz 01, 2023 6:45:24 ÖS methods.Methods checkToAuthor
+INFO: Ron Miller yazarinin Startups
+Xonai looks to reduce cloud bills by optimizing data infrastructure
+Ron Miller
+5:00 PM GMT+3•June 1, 2023
+There are many companies out there looking at how to reduce your cloud bills by eliminating waste, or finding more cost effective ways of doing the same job. Xonai, an early stage startup is taking... haberi true
+Haz 01, 2023 6:45:24 ÖS methods.Methods checkToAuthor
+INFO: Christine Hall yazarinin Commerce
+YouTuber Emma Chamberlain adds to coffee empire with ready-to-drink line
+Christine Hall
+4:30 PM GMT+3•June 1, 2023
+Chamberlain Coffee announced it is entering the ready-to-drink space with a line of cold brew lattes and adding a national retail presence in Sprouts and Walmart. haberi true
+Haz 01, 2023 6:45:24 ÖS methods.Methods checkToAuthor
+INFO: Aisha Malik yazarinin Gaming
+No Man’s Sky launches on Mac starting today
+Aisha Malik
+4:23 PM GMT+3•June 1, 2023
+British video game company Hello Games announced today that No Man’s Sky is launching on Macs starting today. The action-adventure survival game is available for Mac users on Steam now and will be ... haberi true
+Haz 01, 2023 6:45:24 ÖS methods.Methods checkToAuthor
+INFO: Aisha Malik yazarinin Apps
+Wattpad is revamping its creator program and making it more accessible
+Aisha Malik
+4:00 PM GMT+3•June 1, 2023
+Storytelling platform Wattpad is revamping its creator program and making it more accessible for writers, the company announced on Thursday. Launched last year, the Wattpad Creators Program was lim... haberi true
+Haz 01, 2023 6:45:25 ÖS methods.Methods checkToAuthor
+INFO: Ivan Mehta yazarinin Apps
+Google Wallet adds support for QR-based cards and insurance cards
+Ivan Mehta
+4:00 PM GMT+3•June 1, 2023
+Google announced an update to Google Wallet today with new features, such as the ability to convert images into passes, a boarding pass integration with Google Messages, and an additional layer of ... haberi true
+Haz 01, 2023 6:45:25 ÖS methods.Methods checkToAuthor
+INFO: Frederic Lardinois yazarinin Enterprise
+Back-end development platform Platformatic raises $3.5M
+Frederic Lardinois
+4:00 PM GMT+3•June 1, 2023
+Platformatic, a new back-end development platform, wants to make it easier for enterprises to modernize their infrastructure by giving them the tools to build and deploy microservices-based archite... haberi true
+Haz 01, 2023 6:45:25 ÖS methods.Methods checkToAuthor
+INFO: Ron Miller yazarinin Startups
+Ariga is helping developers define database schema as code
+Ron Miller
+3:38 PM GMT+3•June 1, 2023
+As companies look to update their databases, especially in a cloud native context, with so many different databases out there, it’s a huge challenge for developers when migrating from one environme... haberi true
+Haz 01, 2023 6:45:25 ÖS methods.Methods checkToAuthor
+INFO: Mary Ann Azevedo yazarinin Fintech
+Revolut alums raise millions for Vault, a startup offering banking services to Canadian SMBs
+Mary Ann Azevedo
+3:05 PM GMT+3•June 1, 2023
+Vault, an online banking platform serving small-to-medium sized business (SMBs) in Canada, is launching to the public today after raising $3.7 million in seed funding. Founded in late 2021 by Saud ... haberi true
+Haz 01, 2023 6:45:25 ÖS methods.Methods checkToAuthor
+INFO: Taylor Hatmaker yazarinin Social
+Match Group debuts Archer, a new face-first gay dating app for men
+Taylor Hatmaker
+3:00 PM GMT+3•June 1, 2023
+Online dating behemoth Match Group is introducing a new gay dating app, just in time for Pride. The company, which owns the lion’s share of the global dating market, is launching Archer, a “social-... haberi true
+Haz 01, 2023 6:45:25 ÖS methods.Methods checkToAuthor
+INFO: Christine Hall yazarinin Venture
+Olé Life wants to make buying life insurance for Latin Americans easier
+Christine Hall
+3:00 PM GMT+3•June 1, 2023
+The full-stack insurance carrier is targeting Latin America’s growing middle class that may have previously been unable to obtain financial protection. haberi true
+Haz 01, 2023 6:45:25 ÖS methods.Methods checkToAuthor
+INFO: Carly Page yazarinin Security
+Enzo Biochem says ransomware attack exposed clinical test data of 2.5 million patients
+Carly Page
+2:28 PM GMT+3•June 1, 2023
+Enzo Biochem, a New York-based biotechnology company, has confirmed that a ransomware attack exposed the clinical test information of almost 2.5 million patients. Enzo, which manufactures and sells... haberi true
+Haz 01, 2023 6:45:25 ÖS methods.Methods checkToAuthor
+INFO: Amanda Silberling yazarinin Social
+BeReal is adding a messaging feature called RealChat
+Amanda Silberling
+2:00 PM GMT+3•June 1, 2023
+BeReal is working on a chat feature, which will begin with a test among users in Ireland. At launch, users will be able to message one on one with friends, send them a private BeReal (no time limit... haberi true
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

@@ -1,0 +1,12 @@
+[
+  {
+    "key": "newsPageTitle",
+    "value": "article__title",
+    "type": "class"
+  },
+  {
+    "key": "newsPageLinks",
+    "value":".article-container a",
+    "type": "css"
+  }
+]
